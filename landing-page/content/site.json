@@ -1,0 +1,130 @@
+{
+  "slug": "krisskira",
+  "name": "Crhistian Vergara",
+  "shortName": "C. Vergara",
+  "badge": "",
+  "title": "Crhistian Vergara | Ingeniero de software full stack y móvil",
+  "description": "Más de diez años pasando del firmware en C a apps móviles, backends y la nube. Este es mi recorrido, lo que aprendí en cada etapa y lo que he construido.",
+  "keywords": [
+    "Crhistian Vergara",
+    "Cristian David Vergara Gómez",
+    "ingeniero de software",
+    "desarrollador full stack",
+    "desarrollador móvil",
+    "React Native",
+    "iOS Swift",
+    "Node.js",
+    "Python",
+    "AWS",
+    "firmware",
+    "Colombia"
+  ],
+  "lang": "es-CO",
+  "locale": "es_CO",
+  "url": "https://krisskira.github.io/krisskira",
+  "logo": "media/logo.svg",
+  "favicon": "media/logo.svg",
+  "appleTouchIcon": "media/apple-touch-icon.png",
+  "ogImage": "media/og-cover.jpg",
+  "ogImageAlt": "Crhistian Vergara: del firmware en C a productos SaaS, un problema a la vez",
+  "ogType": "profile",
+  "profile": {
+    "first_name": "Crhistian",
+    "last_name": "Vergara Gómez",
+    "username": "krisskira"
+  },
+  "icons": [
+    { "src": "media/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "media/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "defaultTheme": "system",
+  "themeColor": { "light": "#ffffff", "dark": "#141414" },
+  "repo": "https://github.com/krisskira",
+  "cta": { "label": "Contacto", "href": "#contacto" },
+  "nav": [],
+  "author": {
+    "name": "Crhistian David Vergara Gómez",
+    "alternateName": ["Cristian David Vergara Gómez", "krisskira"],
+    "givenName": "Crhistian David",
+    "familyName": "Vergara Gómez",
+    "jobTitle": "Ingeniero de software full stack y móvil",
+    "description": "Ingeniero de software con más de diez años de experiencia en firmware, web, móvil, backend y nube.",
+    "url": "https://krisskira.github.io/krisskira/",
+    "image": "https://krisskira.github.io/krisskira/media/portrait.webp",
+    "email": "krisskira@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Palmira",
+      "addressRegion": "Valle del Cauca",
+      "addressCountry": "CO"
+    },
+    "knowsLanguage": ["es", "en"],
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "Corporación Universitaria Centro Superior UNICUCES" },
+      { "@type": "EducationalOrganization", "name": "Servicio Nacional de Aprendizaje SENA" }
+    ],
+    "knowsAbout": [
+      "C",
+      "Microcontroladores AVR y PIC",
+      "PHP",
+      "JavaScript",
+      "TypeScript",
+      "React Native",
+      "iOS Swift",
+      "SwiftUI",
+      "Combine",
+      "MapKit",
+      "React",
+      "Next.js",
+      "Redux",
+      "Cypress",
+      "Atomic Design",
+      "Python",
+      "FastAPI",
+      "Django",
+      "MongoDB",
+      "AWS Lambda",
+      "AWS SAM",
+      "AWS Cognito",
+      "Docker",
+      "Go",
+      "PostgreSQL",
+      "Redis",
+      "GraphQL",
+      "Clean Architecture",
+      "Domain-Driven Design",
+      "Keras",
+      "KiCad"
+    ],
+    "sameAs": ["https://github.com/krisskira", "https://www.linkedin.com/in/cristian-david-vergara-gomez/"]
+  },
+  "schema": {
+    "@type": "ProfilePage",
+    "@id": "#webpage",
+    "mainEntity": { "@id": "#author" },
+    "dateModified": "2026-10-01"
+  },
+  "footer": {
+    "text": "Ingeniero de software full stack y móvil en Palmira, Colombia. Esta página se genera con mi propia plantilla de landings: el contenido vive en JSON y el código se comparte entre proyectos.",
+    "rights": "Crhistian David Vergara Gómez",
+    "columns": [
+      {
+        "title": "En esta página",
+        "links": [
+          { "label": "Recorrido", "href": "#recorrido" },
+          { "label": "Aprendizajes", "href": "#aprendizajes" },
+          { "label": "Laboratorio", "href": "#laboratorio" },
+          { "label": "Proyectos", "href": "#proyectos" }
+        ]
+      },
+      {
+        "title": "En otros sitios",
+        "links": [
+          { "label": "GitHub", "href": "https://github.com/krisskira" },
+          { "label": "LinkedIn", "href": "https://www.linkedin.com/in/cristian-david-vergara-gomez/" },
+          { "label": "Correo", "href": "mailto:krisskira@gmail.com" }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,406 @@
+{
+  "sections": [
+    {
+      "type": "hero",
+      "badge": "Ingeniero de software · Palmira, Colombia",
+      "title": "Del firmware en C a productos SaaS,",
+      "highlight": "un problema a la vez",
+      "lead": "Soy Crhistian Vergara. En más de diez años cada proyecto me llevó a una capa distinta —hardware, web, móvil, backend, nube— y aprender la herramienta siguiente fue parte del trabajo, no un requisito para empezarlo.",
+      "actions": [
+        { "label": "Ver el recorrido", "href": "#recorrido" },
+        { "label": "GitHub", "href": "https://github.com/krisskira", "variant": "secondary", "icon": "github" }
+      ],
+      "stats": [
+        { "value": "+10", "label": "años construyendo software" },
+        { "value": "5", "label": "capas: firmware, web, móvil, backend y nube" },
+        { "value": "16 382 B", "label": "de 16 384 ocupa mi último firmware" }
+      ],
+      "media": {
+        "src": "media/portrait.webp",
+        "alt": "Retrato a color de Crhistian Vergara",
+        "width": 720,
+        "height": 768,
+        "frame": "plain",
+        "portrait": true
+      },
+      "next": { "label": "Cómo llegué aquí", "href": "#recorrido" }
+    },
+    {
+      "type": "journey",
+      "id": "recorrido",
+      "nav": "Recorrido",
+      "kicker": "Recorrido",
+      "title": "Cada etapa abrió la siguiente",
+      "lead": "No empecé con un stack definido. Empecé con un problema concreto, y cada respuesta me dejó frente a otro que pedía herramientas nuevas. En cada etapa llevé lo que ya sabía, aprendí lo que faltaba y colaboré para que el proyecto siguiera adelante.",
+      "items": [
+        {
+          "period": "2016 – 2019",
+          "place": "Desarrollo web e IoT",
+          "label": "Etapa 1",
+          "title": "Del sensor a la pantalla",
+          "body": [
+            "Empecé por los dos extremos a la vez. En 2017 programaba microcontroladores **PIC** en **C** —una maqueta de semáforos con un PIC 18F2550, simulada en Proteus— y arrancaba **Kriver SmartHome**, una idea de domótica económica: encender luces, ventiladores o electrodomésticos desde la red WiFi de la casa.",
+            "Ese proyecto se controlaba desde el navegador, así que el hardware no bastaba: también había que construir la interfaz. En paralelo hacía aplicaciones web con **PHP** y **JavaScript**, y en 2018 publiqué mi propio **framework MVC en PHP**. Construir uno es una forma directa de entender lo que un framework resuelve."
+          ],
+          "takeaway": {
+            "label": "Lo que me dejó",
+            "text": "Ver un sistema completo, del sensor a la pantalla del usuario, antes de especializarme en una sola capa."
+          },
+          "next": "Kriver SmartHome ya contaba con el teléfono como control. En 2019 hice la especialización en desarrollo de aplicaciones móviles del SENA y el móvil pasó a ser mi trabajo diario."
+        },
+        {
+          "period": "2019 – 2023",
+          "place": "Móvil y arquitectura",
+          "label": "Etapa 2",
+          "title": "Cuando el producto crece, la estructura también",
+          "body": [
+            "El móvil pasó a ser el trabajo diario. Durante cuatro años construí apps de **fintech** y **comercio electrónico** con **React Native**: productos que crecían con cada versión y en los que un error tenía consecuencias para quien los usaba. La estructura de una app pequeña dejó de alcanzar.",
+            "Ahí incorporé **patrones de diseño**, **Clean Architecture** y **DDD** para separar las reglas del negocio de la interfaz. Lo que ya sabía de interfaces sirvió de base; lo nuevo fue organizar el código para que el equipo pudiera seguir construyendo encima sin rehacerlo.",
+            "Fuera del trabajo seguí el mismo camino: pruebas nativas en **Swift** y **Kotlin**, un CRUD en **TypeScript** con DDD, un gestor de tareas en **React** con Cypress y Atomic Design, y aplicaciones full stack con **Django**, **Docker** y APIs de terceros. Cada ejercicio llevaba un aprendizaje anterior a otro entorno. Ese mismo año empecé, en paralelo, la Tecnología en Desarrollo de Software en UNICUCES."
+          ],
+          "takeaway": {
+            "label": "Lo que me dejó",
+            "text": "Aplicar lo aprendido en un contexto nuevo y darle al producto una estructura con la que el equipo pudiera seguir avanzando."
+          },
+          "next": "Los desafíos siguientes pidieron lo mismo, pero ya no solo dentro de la app: también en los datos y en la plataforma nativa."
+        },
+        {
+          "period": "2023 – 2024",
+          "place": "Varias capas de un mismo producto",
+          "label": "Etapa 3",
+          "title": "El aporte está donde está el problema",
+          "body": [
+            "Un mismo periodo reunió tres necesidades: una app de comercio electrónico en **React Native** para otro mercado, funciones nuevas en una app **iOS** nativa y un backend en **Python** con **FastAPI** y **MongoDB**. Llegué con la experiencia móvil y tuve que aprender la capa que cada desafío pedía.",
+            "En ese backend, las consultas a MongoDB eran el cuello de botella. Las refactoricé y los tiempos de respuesta bajaron de forma notable. Colaborar ahí significó dejar la pantalla y entender el modelo de los datos, para que el producto respondiera mejor.",
+            "En paralelo profundicé en iOS con **SwiftUI**, **MVVM**, Combine y MapKit. No era sumar otro framework: era comprobar cómo cambian el estado, la navegación y el reparto de responsabilidades al pasar de una solución multiplataforma a una nativa, y poder aportar en las dos."
+          ],
+          "takeaway": {
+            "label": "Lo que me dejó",
+            "text": "Usar lo que ya sabía para entrar en una capa nueva y ayudar a destrabar el punto que frenaba el proyecto."
+          },
+          "next": "Después el alcance creció otra vez: aplicaciones web, infraestructura y la coordinación del trabajo de otras personas."
+        },
+        {
+          "period": "2024 – 2025",
+          "place": "Web, nube y coordinación",
+          "label": "Etapa 4",
+          "title": "Aprender la infraestructura para que otros puedan construir",
+          "body": [
+            "El trabajo pasó a aplicaciones **React** y a funciones **AWS Lambda** desplegadas con **SAM**. Venía de explorar la autenticación con **AWS Cognito** en Next.js; aquí el backend dejó de ser un servidor y se convirtió en funciones que se describen y se despliegan como infraestructura.",
+            "También construí una **plantilla frontend** para que los proyectos nuevos partieran de una base común. Más adelante me involucré en la estructura y las funcionalidades del producto principal: coordiné el frontend y repartí responsabilidades dentro del equipo para sacar adelante la entrega."
+          ],
+          "takeaway": {
+            "label": "Lo que me dejó",
+            "text": "Poner el conocimiento nuevo al servicio del equipo: una base reutilizable, infraestructura y coordinación para que el producto avanzara."
+          },
+          "next": "El ritmo cambió cuando dejé de estar en un solo producto y empecé a colaborar en varios a la vez."
+        },
+        {
+          "period": "2025 – 2026",
+          "place": "Varios productos, un mismo modo de aportar",
+          "label": "Etapa 5",
+          "title": "Entrar en sistemas distintos y hacerlos avanzar",
+          "body": [
+            "Pasé a colaborar en varios productos a la vez, en frontend y backend: plataformas SaaS, bases de datos relacionales y la arquitectura de cada aplicación. Cada uno tenía su dominio, sus requisitos y decisiones que yo no había tomado.",
+            "El aporte era leer ese sistema, entender por qué era así y trabajar dentro de sus reglas. Llevaba la arquitectura, las bases de datos y la experiencia entre capas; aprendía el dominio nuevo y lo aplicaba para resolver el desafío concreto del equipo. En esta etapa también incorporé la **IA a mi flujo de desarrollo** para resolver problemas y entregar código de mejor calidad.",
+            "Esa adopción venía de antes. Desde finales de 2024 estudiaba aprendizaje automático con modelos propios en **Keras**, en 2025 obtuve la certificación de Inteligencia Artificial de Talento Tech y seguí hacia **LangChain**, RAG y modelos como OpenAI y Llama. En diciembre de 2025 terminé la Tecnología en UNICUCES."
+          ],
+          "takeaway": {
+            "label": "Lo que me dejó",
+            "text": "Combinar lo ya aprendido con lo que cada producto exigía, y usar la IA como una herramienta más para colaborar con mejor criterio."
+          },
+          "next": "Con todo eso acumulado, volví al punto de partida: el hardware."
+        },
+        {
+          "period": "2026",
+          "place": "Laboratorio propio",
+          "label": "Etapa 6",
+          "title": "El problema del principio, con todo lo aprendido",
+          "body": [
+            "**HotPlate** es una estación de soldadura SMD por reflow: firmware en C para un **ATmega16**, control PI con autoajuste, una PCB en **KiCad**, la carcasa impresa en 3D y **HotPlate Studio**, una app de escritorio en **Python** que habla con la placa por USB.",
+            "Para animar iconos en su pantalla sin agotar la memoria escribí un conversor de GIF a bytes. Y para guardar los registros de mis aplicaciones y dispositivos sin entregarlos a un tercero estoy construyendo **kLog**, con **Go**, GraphQL, **PostgreSQL** y Redis."
+          ],
+          "takeaway": {
+            "label": "Lo que me dejó",
+            "text": "Lo aprendido en cada capa ahora trabaja junto: electrónica, firmware, protocolo, interfaz y datos en un mismo proyecto."
+          }
+        }
+      ]
+    },
+    {
+      "type": "features",
+      "id": "aprendizajes",
+      "nav": "Aprendizajes",
+      "tone": "alt",
+      "kicker": "Lo que aprendí en el camino",
+      "title": "Capacidades que salieron de los proyectos",
+      "lead": "No es una lista de herramientas. Son formas de trabajar que fui adquiriendo porque el trabajo las pedía, y cada una tiene un origen concreto.",
+      "columns": 3,
+      "items": [
+        {
+          "icon": "layers",
+          "title": "Ver el sistema completo",
+          "text": "Empecé con hardware y web en el mismo proyecto. Hoy HotPlate recorre firmware, protocolo USB y escritorio; kLog, API, worker y consola."
+        },
+        {
+          "icon": "boxes",
+          "title": "Arquitectura que aguanta cambios",
+          "text": "Clean Architecture y DDD llegaron cuando las apps móviles crecieron. Después los apliqué en TypeScript, React y Swift para que el código aguantara el siguiente cambio."
+        },
+        {
+          "icon": "devices",
+          "title": "Cruzar entre cliente y servidor",
+          "text": "Del móvil multiplataforma pasé al iOS nativo y a un backend en Python; después, a React con AWS Lambda y a frontend y backend en productos SaaS."
+        },
+        {
+          "icon": "search",
+          "title": "Entender sistemas que no diseñé",
+          "text": "Colaborar en varios productos a la vez me obligó a leer código ajeno, entender sus decisiones y aplicar lo que ya sabía dentro de esas reglas."
+        },
+        {
+          "icon": "users",
+          "title": "Construir la base para otros",
+          "text": "Una plantilla frontend para que otros proyectos empezaran con una base común, y la coordinación del frontend para repartir el trabajo y sacar la entrega adelante. Esta página sale de una plantilla que mantengo."
+        },
+        {
+          "icon": "cpu",
+          "title": "Software con límites físicos",
+          "text": "El firmware de HotPlate ocupa 16 382 de 16 384 bytes de flash: cada función nueva tiene que ganarse su espacio, y la seguridad térmica no se negocia."
+        }
+      ]
+    },
+    {
+      "type": "split",
+      "id": "laboratorio",
+      "nav": "Laboratorio",
+      "kicker": "Software + hardware",
+      "title": "Cuando el problema no cabe en una pantalla",
+      "body": [
+        "El hardware no es un pasatiempo aparte: es por donde empecé y adonde vuelvo cuando un problema necesita tocar el mundo físico. Ahí el software tiene límites que no existen en la nube: memoria contada, tiempo real y salidas que deben apagarse ante cualquier falla.",
+        "En **HotPlate** un solo proyecto me pidió electrónica, control, mecánica y software de escritorio. Cada pieza se apoya en algo de otra etapa: el protocolo AT por USB se usa desde Studio o desde un script, como cualquier API, y Studio separa protocolo, estado y vistas."
+      ],
+      "bullets": [
+        "Firmware en C para microcontroladores PIC y AVR, desde 2017",
+        "PCB en KiCad y carcasa diseñada en Fusion 360 para impresión 3D",
+        "Sensor PT100 con MAX31865 y relé de estado sólido (MOC3021 + BT136)",
+        "Control PI con autoajuste y apagado por sobretemperatura"
+      ],
+      "media": {
+        "type": "video",
+        "src": "media/hotplate-demo.mp4",
+        "poster": "media/hotplate-cycle.webp",
+        "autoplay": true,
+        "alt": "Ciclo real de HotPlate: la pantalla HotPanel muestra 128,6 °C y la curva sube por escalones hasta 130 °C",
+        "width": 1280,
+        "height": 720,
+        "caption": "Ciclo HEAT real de HotPlate, acelerado ×16: HotPanel a la izquierda y la curva de temperatura por escalones a la derecha."
+      },
+      "actions": [
+        { "label": "Código, PCB y carcasa", "href": "https://github.com/krisskira/smd-soldering-hotplate", "variant": "secondary", "icon": "github" }
+      ]
+    },
+    {
+      "type": "projects",
+      "id": "proyectos",
+      "nav": "Proyectos",
+      "tone": "alt",
+      "kicker": "Proyectos",
+      "title": "Lo que he construido por mi cuenta",
+      "lead": "El código de mis trabajos pertenece a cada empresa. Estos proyectos son personales: cada uno nació de una necesidad y me dejó algo que no sabía.",
+      "items": [
+        {
+          "id": "hotplate",
+          "featured": true,
+          "meta": "2026 · Hardware abierto",
+          "title": "HotPlate",
+          "summary": "Estación de soldadura SMD por reflow que ejecuta un perfil de temperatura por escalones, con pantalla propia y una app de escritorio.",
+          "beats": [
+            {
+              "label": "Por qué existe",
+              "text": "Soldar SMD con cautín se acaba cuando aparece un QFN. La placa funde la pasta siguiendo una curva: sube, sostiene cada meseta y se apaga, sin que alguien tenga que vigilar el termómetro."
+            },
+            {
+              "label": "Qué aprendí",
+              "text": "Control PI con autoajuste, a diseñar un protocolo AT por USB y a decidir qué entra en 16 KB de flash."
+            }
+          ],
+          "tags": ["C", "ATmega16", "MAX31865 + PT100", "KiCad", "Fusion 360", "Python", "pyserial", "matplotlib"],
+          "media": {
+            "src": "media/hotplate-studio.webp",
+            "alt": "HotPlate Studio durante un ciclo: perfil de cuatro rampas, estado del proceso, curva en vivo y registro de eventos",
+            "width": 1440,
+            "height": 1012,
+            "caption": "HotPlate Studio conectado por USB durante un ciclo real."
+          },
+          "actions": [{ "label": "Repositorio", "href": "https://github.com/krisskira/smd-soldering-hotplate" }],
+          "schema": {
+            "@type": "SoftwareSourceCode",
+            "codeRepository": "https://github.com/krisskira/smd-soldering-hotplate",
+            "programmingLanguage": ["C", "Python"],
+            "runtimePlatform": "ATmega16"
+          }
+        },
+        {
+          "id": "klog",
+          "featured": true,
+          "meta": "2026 · En desarrollo",
+          "title": "kLog",
+          "summary": "Plataforma self-hosted para recibir los eventos de aplicaciones y dispositivos, guardarlos por organización y buscarlos desde una consola.",
+          "beats": [
+            {
+              "label": "Por qué existe",
+              "text": "Guardar logs sin entregarlos a un servicio externo: datos propios, costo predecible y una sola aplicación en lugar de un ensamble de herramientas."
+            },
+            {
+              "label": "Qué estoy aprendiendo",
+              "text": "Diseño multi-tenant en PostgreSQL con un schema por tenant, colas en Redis con un worker en Go, y separar el acceso de personas (sesión o JWT) del de dispositivos (API tokens)."
+            }
+          ],
+          "tags": ["Go", "GraphQL", "REST", "PostgreSQL", "Redis", "React"],
+          "media": {
+            "src": "media/klog-explorer.webp",
+            "alt": "Explorador de eventos de kLog con filtros por aplicación y etiqueta, y el detalle de un error en JSON",
+            "width": 1200,
+            "height": 960,
+            "caption": "Explorador de eventos del diseño de la v1. La consola se construye sobre él."
+          },
+          "schema": {
+            "@type": "SoftwareApplication",
+            "applicationCategory": "DeveloperApplication",
+            "operatingSystem": "Linux, Docker",
+            "softwareRequirements": "PostgreSQL, Redis",
+            "creativeWorkStatus": "En desarrollo"
+          }
+        },
+        {
+          "id": "st7920-gif",
+          "meta": "2026 · Herramienta",
+          "title": "Conversor GIF → bytes para ST7920",
+          "summary": "Convierte GIF en arreglos C para pantallas ST7920 de 128×64, con recorte, modo diferencial entre frames y almacenamiento en flash (PROGMEM).",
+          "beats": [
+            {
+              "label": "Por qué existe",
+              "text": "Animar iconos en la pantalla de HotPlate sin agotar la memoria de un microcontrolador pequeño."
+            },
+            {
+              "label": "Qué aprendí",
+              "text": "Cómo organiza la ST7920 sus bits en memoria y cómo guardar solo las diferencias entre frames para ahorrar flash."
+            }
+          ],
+          "tags": ["Python", "Pillow", "NumPy", "C"],
+          "media": {
+            "src": "media/hotpanel-ramp.png",
+            "alt": "Pantalla HotPanel de 128×64 píxeles con el icono de calor y una rampa en curso",
+            "width": 664,
+            "height": 344,
+            "pixelated": true
+          },
+          "actions": [{ "label": "Repositorio", "href": "https://github.com/krisskira/st7920-image-gif-to-bytes" }],
+          "schema": {
+            "@type": "SoftwareSourceCode",
+            "codeRepository": "https://github.com/krisskira/st7920-image-gif-to-bytes",
+            "programmingLanguage": "Python"
+          }
+        },
+        {
+          "id": "ml-digitos",
+          "meta": "2024 · Aprendizaje automático",
+          "title": "Calculadora de dígitos manuscritos",
+          "summary": "Una calculadora que recibe números escritos a mano: un modelo entrenado con Keras los reconoce y un servidor en Python resuelve la operación.",
+          "beats": [
+            {
+              "label": "Por qué existe",
+              "text": "Fue mi entrada al aprendizaje automático, antes de llevar la IA a mi trabajo diario."
+            },
+            {
+              "label": "Qué aprendí",
+              "text": "Entrenar y guardar un modelo, documentar el entrenamiento en un notebook y servirlo detrás de una API."
+            }
+          ],
+          "tags": ["Python", "Keras", "Jupyter"],
+          "actions": [{ "label": "Repositorio", "href": "https://github.com/krisskira/ml-handwritten-number-recognizar" }],
+          "schema": {
+            "@type": "SoftwareSourceCode",
+            "codeRepository": "https://github.com/krisskira/ml-handwritten-number-recognizar",
+            "programmingLanguage": "Python"
+          }
+        },
+        {
+          "id": "kriver-smarthome",
+          "meta": "2017 · Domótica",
+          "title": "Kriver SmartHome",
+          "summary": "Firmware para controlar luces, ventiladores, electrodomésticos y persianas desde la red WiFi de la casa, con un servidor que hace de hub.",
+          "beats": [
+            {
+              "label": "Por qué existe",
+              "text": "Hacer domótica económica, controlable desde el teléfono, el computador o un asistente."
+            },
+            {
+              "label": "Qué aprendí",
+              "text": "Firmware en C para dispositivos conectados, y la idea que todavía uso: entender el problema desde el sensor hasta la pantalla."
+            }
+          ],
+          "tags": ["C", "IoT", "WiFi"],
+          "actions": [{ "label": "Repositorio", "href": "https://github.com/krisskira/Kriver-Hardware" }],
+          "schema": {
+            "@type": "SoftwareSourceCode",
+            "codeRepository": "https://github.com/krisskira/Kriver-Hardware",
+            "programmingLanguage": "C"
+          }
+        },
+        {
+          "id": "arquitectura",
+          "meta": "2022 – 2024 · Arquitectura entre stacks",
+          "title": "La misma arquitectura, distintos entornos",
+          "summary": "Proyectos deliberadamente distintos para comprobar qué principios permanecen al cambiar de web a backend y móvil nativo.",
+          "beats": [
+            {
+              "label": "Por qué existen",
+              "text": "Practicar fuera del trabajo los patrones que usaba en las apps fintech: DDD en TypeScript, Atomic Design y Cypress en React, un full stack React/Django/Docker y MVVM con SwiftUI."
+            },
+            {
+              "label": "Qué aprendí",
+              "text": "Que dominio, casos de uso e infraestructura sobreviven al cambio de lenguaje, mientras estado, pruebas e integración piden una implementación propia en cada plataforma."
+            }
+          ],
+          "tags": ["TypeScript", "DDD", "React", "Cypress", "Django", "Docker", "SwiftUI", "MVVM"],
+          "actions": [
+            { "label": "DDD en TypeScript", "href": "https://github.com/krisskira/demo-using-ddd" },
+            { "label": "React + Cypress", "href": "https://github.com/krisskira/task-manager" },
+            { "label": "React + Django", "href": "https://github.com/krisskira/checdoc" },
+            { "label": "SwiftUI + MVVM", "href": "https://github.com/krisskira/yape-recipes-ingress-test" }
+          ]
+        }
+      ],
+      "actions": [
+        { "label": "Todos los repositorios", "href": "https://github.com/krisskira?tab=repositories", "variant": "secondary", "icon": "github" }
+      ]
+    },
+    {
+      "type": "quotes",
+      "id": "colegas",
+      "kicker": "Desde fuera",
+      "title": "Lo que dicen quienes han trabajado conmigo",
+      "items": [
+        {
+          "text": "Demostró una y otra vez la capacidad de guiar y motivar al equipo. Entiende conceptos complejos rápido y los convierte en código limpio y bien estructurado.",
+          "author": "Santiago Valle"
+        },
+        {
+          "text": "Una excelente persona y un estupendo programador, con gran conocimiento y siempre dispuesto a ayudar y a compartir lo que sabe.",
+          "author": "Victor Hoyos"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "contacto",
+      "title": "Hablemos del próximo problema",
+      "lead": "Si tu proyecto necesita a alguien que se mueva entre capas, o que aprenda la que falta, escríbeme.",
+      "actions": [
+        { "label": "krisskira@gmail.com", "href": "mailto:krisskira@gmail.com", "icon": "mail" },
+        { "label": "LinkedIn", "href": "https://www.linkedin.com/in/cristian-david-vergara-gomez/", "variant": "secondary" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      @font-face {
+        font-family: 'Poppins';
+        src: url('../src/assets/fonts/Poppins-SemiBold.woff') format('woff');
+        font-weight: 600;
+      }
+      @font-face {
+        font-family: 'Noto Sans';
+        src: url('../src/assets/fonts/NotoSans-Regular.woff') format('woff');
+        font-weight: 400;
+      }
+      html,
+      body {
+        margin: 0;
+        width: 1200px;
+        height: 630px;
+        overflow: hidden;
+      }
+      body {
+        position: relative;
+        background: #1f1f1f;
+        color: #fffdf8;
+        font-family: 'Noto Sans', sans-serif;
+      }
+      .glow-1,
+      .glow-2 {
+        position: absolute;
+        border-radius: 50%;
+      }
+      .glow-1 {
+        left: -260px;
+        top: -260px;
+        width: 760px;
+        height: 760px;
+        background: radial-gradient(circle, rgba(240, 223, 65, 0.18), transparent 65%);
+      }
+      .glow-2 {
+        right: -200px;
+        bottom: -320px;
+        width: 820px;
+        height: 820px;
+        background: radial-gradient(circle, rgba(81, 161, 235, 0.24), transparent 65%);
+      }
+      .grid {
+        position: absolute;
+        inset: 0;
+        opacity: 0.07;
+        background-image: linear-gradient(#fffdf8 1px, transparent 1px), linear-gradient(90deg, #fffdf8 1px, transparent 1px);
+        background-size: 48px 48px;
+        mask-image: radial-gradient(ellipse at center, black, transparent 75%);
+      }
+      .content {
+        position: absolute;
+        left: 72px;
+        top: 70px;
+        width: 700px;
+      }
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 26px;
+      }
+      .brand img {
+        width: 52px;
+        height: 52px;
+      }
+      h1 {
+        margin: 44px 0 0;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 58px;
+        line-height: 1.1;
+        letter-spacing: -0.02em;
+      }
+      h1 span {
+        background: linear-gradient(90deg, #51a1eb, #eb5151);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+      p {
+        margin: 26px 0 0;
+        font-size: 24px;
+        line-height: 1.45;
+        color: rgba(255, 253, 248, 0.75);
+      }
+      .portrait {
+        position: absolute;
+        right: 70px;
+        top: 105px;
+        width: 360px;
+        height: auto;
+      }
+      .bar {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 10px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+      }
+      .bar span:nth-child(1) {
+        background: #2a74c0;
+      }
+      .bar span:nth-child(2) {
+        background: #f0df41;
+      }
+      .bar span:nth-child(3) {
+        background: #eb5151;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="glow-1"></div>
+    <div class="glow-2"></div>
+    <div class="grid"></div>
+    <div class="content">
+      <div class="brand"><img src="../public/media/logo.svg" alt="" />Crhistian Vergara</div>
+      <h1>Del firmware en C a productos SaaS, <span>un problema a la vez</span></h1>
+      <p>Ingeniero de software full stack y móvil. Mi recorrido y lo que he construido.</p>
+    </div>
+    <img class="portrait" src="../public/media/portrait.webp" alt="" />
+    <div class="bar"><span></span><span></span><span></span></div>
+  </body>
+</html>

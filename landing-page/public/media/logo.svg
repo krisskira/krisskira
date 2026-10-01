@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Crhistian Vergara">
+  <rect width="64" height="64" rx="14" fill="#1b1b1b"/>
+  <path d="M19 45 H32 V32 H45 V19" fill="none" stroke="#fffdf8" stroke-opacity="0.22" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="12" y="38" width="14" height="14" rx="3" fill="#2a74c0"/>
+  <rect x="25" y="25" width="14" height="14" rx="3" fill="#f0df41"/>
+  <rect x="38" y="12" width="14" height="14" rx="3" fill="#eb5151"/>
+</svg>
