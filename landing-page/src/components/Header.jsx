@@ -4,7 +4,7 @@ import { useI18n } from '../i18n/useI18n';
 import { asset, isExternal } from '../lib/content';
 import { usePage } from '../lib/usePage';
 import { useTheme } from '../theme/context';
-import { GitHubIcon } from './Icon';
+import { GitHubIcon, WhatsAppIcon } from './Icon';
 import { focusRing, wrap } from '../lib/styles';
 
 function Logo({ overlay, site }) {
@@ -95,6 +95,11 @@ export function Header() {
           {site.repo ? (
             <a href={site.repo} target="_blank" rel="noopener noreferrer" className={iconButton} aria-label={t('source.label')}>
               <GitHubIcon size={20} />
+            </a>
+          ) : null}
+          {site.whatsapp ? (
+            <a href={site.whatsapp} target="_blank" rel="noopener noreferrer" className={iconButton} aria-label={t('whatsapp.label')}>
+              <WhatsAppIcon size={20} />
             </a>
           ) : null}
           <LocaleSwitch overlay={overlay} />

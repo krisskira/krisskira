@@ -40,6 +40,7 @@
   "defaultTheme": "system",
   "themeColor": { "light": "#ffffff", "dark": "#141414" },
   "repo": "https://github.com/krisskira",
+  "whatsapp": "https://wa.me/573183919187",
   "cta": { "label": "Contacto", "href": "#contacto" },
   "nav": [],
   "author": {
@@ -52,6 +53,7 @@
     "url": "https://krisskira.github.io/krisskira/",
     "image": "https://krisskira.github.io/krisskira/media/portrait.webp",
     "email": "krisskira@gmail.com",
+    "telephone": "+573183919187",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Palmira",
@@ -122,6 +124,7 @@
         "links": [
           { "label": "GitHub", "href": "https://github.com/krisskira" },
           { "label": "LinkedIn", "href": "https://www.linkedin.com/in/cristian-david-vergara-gomez/" },
+          { "label": "WhatsApp", "href": "https://wa.me/573183919187" },
           { "label": "Correo", "href": "mailto:krisskira@gmail.com" }
         ]
       }

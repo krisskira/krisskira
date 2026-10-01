@@ -6,7 +6,7 @@
 
 Full-stack and mobile software engineer from Palmira, Colombia. My experience isn't a fixed stack: over ten years, each project pushed me into a new layer, and learning what that layer required became part of the job.
 
-[Portfolio](https://krisskira.github.io/krisskira/) · [LinkedIn](https://www.linkedin.com/in/cristian-david-vergara-gomez/) · [Email](mailto:krisskira@gmail.com) · [Leer en español](README.es.md)
+[Portfolio](https://krisskira.github.io/krisskira/) · [LinkedIn](https://www.linkedin.com/in/cristian-david-vergara-gomez/) · [WhatsApp](https://wa.me/573183919187) · [Email](mailto:krisskira@gmail.com) · [Leer en español](README.es.md)
 
 ## How I got here
 
@@ -34,3 +34,9 @@ Full-stack and mobile software engineer from Palmira, Colombia. My experience is
 ## Explore
 
 The full story, stage by stage, is on my **[portfolio](https://krisskira.github.io/krisskira/)**. The code is in my [repositories](https://github.com/krisskira?tab=repositories).
+
+## Let's talk about the next project
+
+If your project needs someone who moves across layers, or who can learn the missing one, get in touch.
+
+[Email](mailto:krisskira@gmail.com) · [WhatsApp](https://wa.me/573183919187) · [LinkedIn](https://www.linkedin.com/in/cristian-david-vergara-gomez/) · [See the journey](https://krisskira.github.io/krisskira/#recorrido)

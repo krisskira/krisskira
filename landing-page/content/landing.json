@@ -395,11 +395,12 @@
     {
       "type": "cta",
       "id": "contacto",
-      "title": "Hablemos del próximo problema",
+      "title": "Hablemos del próximo proyecto",
       "lead": "Si tu proyecto necesita a alguien que se mueva entre capas, o que aprenda la que falta, escríbeme.",
       "actions": [
         { "label": "krisskira@gmail.com", "href": "mailto:krisskira@gmail.com", "icon": "mail" },
-        { "label": "LinkedIn", "href": "https://www.linkedin.com/in/cristian-david-vergara-gomez/", "variant": "secondary" }
+        { "label": "WhatsApp", "href": "https://wa.me/573183919187", "variant": "secondary", "icon": "whatsapp" },
+        { "label": "LinkedIn", "href": "https://www.linkedin.com/in/cristian-david-vergara-gomez/", "variant": "secondary", "icon": "linkedin" }
       ]
     }
   ]

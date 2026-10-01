@@ -214,7 +214,11 @@ function noscript(site, landing) {
     .filter((section) => section.type !== 'hero' && section.id && section.title)
     .map((section) => `<li><strong>${esc(plain(section.title))}</strong>${section.lead ? ` — ${esc(plain(section.lead))}` : ''}</li>`)
     .join('\n          ');
-  const links = [site.repo && `<li><a href="${esc(site.repo)}">Código fuente</a></li>`, site.author?.email && `<li><a href="mailto:${esc(site.author.email)}">${esc(site.author.email)}</a></li>`]
+  const links = [
+    site.repo && `<li><a href="${esc(site.repo)}">Código fuente</a></li>`,
+    site.author?.email && `<li><a href="mailto:${esc(site.author.email)}">${esc(site.author.email)}</a></li>`,
+    site.whatsapp && `<li><a href="${esc(site.whatsapp)}">WhatsApp</a></li>`,
+  ]
     .filter(Boolean)
     .join('\n          ');
 
@@ -267,6 +271,7 @@ function llms(site, landing, base) {
     site.repo && `- Código fuente: ${site.repo}`,
     site.author?.name && `- Autor: ${site.author.name}${site.author.url ? ` (${site.author.url})` : ''}`,
     site.author?.email && `- Contacto: ${site.author.email}`,
+    site.whatsapp && `- WhatsApp: ${site.whatsapp}`,
     site.maker?.name && `- Estudio: ${site.maker.name}${site.maker.url ? ` (${site.maker.url})` : ''}`,
   ]
     .filter(Boolean)

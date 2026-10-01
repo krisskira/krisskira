@@ -4,7 +4,7 @@ import { asset, isExternal } from '../lib/content';
 import { usePage } from '../lib/usePage';
 import { BrandBar, Rich } from './ui';
 import { focusRing, wrap } from '../lib/styles';
-import { GitHubIcon } from './Icon';
+import { GitHubIcon, WhatsAppIcon } from './Icon';
 
 const linkClass = `rounded-sm text-hero-fg/70 transition hover:text-accent ${focusRing}`;
 
@@ -59,6 +59,17 @@ export function Footer() {
               >
                 <Mail size={18} aria-hidden="true" />
                 {site.author.email}
+              </a>
+            ) : null}
+            {site.whatsapp ? (
+              <a
+                href={site.whatsapp}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`inline-flex h-11 items-center gap-2 rounded-full border border-hero-fg/20 px-4 text-sm font-semibold transition hover:border-accent hover:text-accent ${focusRing}`}
+              >
+                <WhatsAppIcon size={18} />
+                WhatsApp
               </a>
             ) : null}
           </div>
