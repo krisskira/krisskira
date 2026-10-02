@@ -21,7 +21,7 @@
   ],
   "lang": "es-CO",
   "locale": "es_CO",
-  "url": "https://krisskira.github.io/krisskira",
+  "url": "https://krisskira.com",
   "gtm": "GTM-TWN288N",
   "clarity": "yra4vt3xn4",
   "coffee": {
@@ -45,7 +45,7 @@
   ],
   "defaultTheme": "system",
   "themeColor": { "light": "#ffffff", "dark": "#141414" },
-  "repo": "https://github.com/krisskira",
+  "repo": "https://github.com/krisskira/krisskira",
   "whatsapp": "https://wa.me/573183919187",
   "cta": { "label": "Contacto", "href": "#contacto" },
   "nav": [],
@@ -56,8 +56,8 @@
     "familyName": "Vergara Gómez",
     "jobTitle": "Ingeniero de software full stack y móvil",
     "description": "Ingeniero de software con más de diez años de experiencia en firmware, web, móvil, backend y nube.",
-    "url": "https://krisskira.github.io/krisskira/",
-    "image": "https://krisskira.github.io/krisskira/media/portrait.webp",
+    "url": "https://krisskira.com/",
+    "image": "https://krisskira.com/media/portrait.webp",
     "email": "krisskira@gmail.com",
     "telephone": "+573183919187",
     "address": {
@@ -104,7 +104,12 @@
       "Keras",
       "KiCad"
     ],
-    "sameAs": ["https://github.com/krisskira", "https://www.linkedin.com/in/cristian-david-vergara-gomez/"]
+    "sameAs": [
+      "https://krisskira.github.io/krisskira/",
+      "https://www.linkedin.com/in/cristian-david-vergara-gomez/",
+      "https://www.facebook.com/krisskira",
+      "https://orcid.org/0009-0005-0802-7042"
+    ]
   },
   "schema": {
     "@type": "ProfilePage",
@@ -128,7 +133,7 @@
       {
         "title": "En otros sitios",
         "links": [
-          { "label": "GitHub", "href": "https://github.com/krisskira" },
+          { "label": "GitHub", "href": "https://krisskira.github.io/krisskira/" },
           { "label": "LinkedIn", "href": "https://www.linkedin.com/in/cristian-david-vergara-gomez/" },
           { "label": "WhatsApp", "href": "https://wa.me/573183919187" },
           { "label": "Correo", "href": "mailto:krisskira@gmail.com" },

@@ -34,7 +34,7 @@ jobs:
       - run: npm run lint
       - run: npm run build
         env:
-          VITE_SITE_URL: https://krisskira.github.io/krisskira
+          VITE_SITE_URL: https://krisskira.com
       - uses: actions/upload-pages-artifact@v5
         with:
           path: landing-page/dist

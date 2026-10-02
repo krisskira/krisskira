@@ -8,7 +8,7 @@
       "lead": "Soy Crhistian Vergara. En más de diez años cada proyecto me llevó a una capa distinta —hardware, web, móvil, backend, nube— y aprender la herramienta siguiente fue parte del trabajo, no un requisito para empezarlo.",
       "actions": [
         { "label": "Ver el recorrido", "href": "#recorrido" },
-        { "label": "GitHub", "href": "https://github.com/krisskira", "variant": "secondary", "icon": "github" }
+        { "label": "GitHub", "href": "https://krisskira.github.io/krisskira/", "variant": "secondary", "icon": "github" }
       ],
       "stats": [
         { "value": "+10", "label": "años construyendo software" },

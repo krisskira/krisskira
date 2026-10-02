@@ -1,4 +1,4 @@
-<a href="https://krisskira.github.io/krisskira/">
+<a href="https://krisskira.com/">
   <img src="landing-page/public/media/og-cover.jpg" alt="Crhistian Vergara: from C firmware to SaaS products, one problem at a time" width="100%" />
 </a>
 
@@ -6,7 +6,7 @@
 
 Full-stack and mobile software engineer from Palmira, Colombia. My experience isn't a fixed stack: over ten years, each project pushed me into a new layer, and learning what that layer required became part of the job.
 
-[Portfolio](https://krisskira.github.io/krisskira/) · [LinkedIn](https://www.linkedin.com/in/cristian-david-vergara-gomez/) · [WhatsApp](https://wa.me/573183919187) · [Email](mailto:krisskira@gmail.com) · [Buy me a coffee](https://paypal.me/KRIVERDEVICE?locale.x=es_XC&country.x=CO) · [Leer en español](README.es.md)
+[Portfolio](https://krisskira.com/) · [LinkedIn](https://www.linkedin.com/in/cristian-david-vergara-gomez/) · [WhatsApp](https://wa.me/573183919187) · [Email](mailto:krisskira@gmail.com) · [Buy me a coffee](https://paypal.me/KRIVERDEVICE?locale.x=es_XC&country.x=CO) · [Leer en español](README.es.md)
 
 ## How I got here
 
@@ -34,10 +34,10 @@ Full-stack and mobile software engineer from Palmira, Colombia. My experience is
 
 ## Explore
 
-The full story, stage by stage, is on my **[portfolio](https://krisskira.github.io/krisskira/)**. The code is in my [repositories](https://github.com/krisskira?tab=repositories).
+The full story, stage by stage, is on my **[portfolio](https://krisskira.com/)**. The code is in my [repositories](https://github.com/krisskira?tab=repositories).
 
 ## Let's talk about the next project
 
 If your project needs someone who moves across layers, or who can learn the missing one, get in touch.
 
-[Email](mailto:krisskira@gmail.com) · [WhatsApp](https://wa.me/573183919187) · [LinkedIn](https://www.linkedin.com/in/cristian-david-vergara-gomez/) · [Buy me a coffee](https://paypal.me/KRIVERDEVICE?locale.x=es_XC&country.x=CO) · [See the journey](https://krisskira.github.io/krisskira/#recorrido)
+[Email](mailto:krisskira@gmail.com) · [WhatsApp](https://wa.me/573183919187) · [LinkedIn](https://www.linkedin.com/in/cristian-david-vergara-gomez/) · [Buy me a coffee](https://paypal.me/KRIVERDEVICE?locale.x=es_XC&country.x=CO) · [See the journey](https://krisskira.com/#recorrido)

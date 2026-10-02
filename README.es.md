@@ -1,4 +1,4 @@
-<a href="https://krisskira.github.io/krisskira/">
+<a href="https://krisskira.com/">
   <img src="landing-page/public/media/og-cover.jpg" alt="Crhistian Vergara: del firmware en C a productos SaaS, un problema a la vez" width="100%" />
 </a>
 
@@ -6,7 +6,7 @@
 
 Ingeniero de software full stack y móvil en Palmira, Colombia. Mi experiencia no es un stack fijo: en más de diez años cada proyecto me llevó a una capa nueva, y aprender lo que esa capa pedía se volvió parte del trabajo.
 
-[Portfolio](https://krisskira.github.io/krisskira/) · [LinkedIn](https://www.linkedin.com/in/cristian-david-vergara-gomez/) · [WhatsApp](https://wa.me/573183919187) · [Correo](mailto:krisskira@gmail.com) · [Invítame un café](https://paypal.me/KRIVERDEVICE?locale.x=es_XC&country.x=CO) · [Read in English](README.md)
+[Portfolio](https://krisskira.com/) · [LinkedIn](https://www.linkedin.com/in/cristian-david-vergara-gomez/) · [WhatsApp](https://wa.me/573183919187) · [Correo](mailto:krisskira@gmail.com) · [Invítame un café](https://paypal.me/KRIVERDEVICE?locale.x=es_XC&country.x=CO) · [Read in English](README.md)
 
 ## Cómo llegué aquí
 
@@ -34,10 +34,10 @@ Ingeniero de software full stack y móvil en Palmira, Colombia. Mi experiencia n
 
 ## Explora
 
-La historia completa, etapa por etapa, está en mi **[portfolio](https://krisskira.github.io/krisskira/)**. El código, en mis [repositorios](https://github.com/krisskira?tab=repositories).
+La historia completa, etapa por etapa, está en mi **[portfolio](https://krisskira.com/)**. El código, en mis [repositorios](https://github.com/krisskira?tab=repositories).
 
 ## Hablemos del próximo proyecto
 
 Si tu proyecto necesita a alguien que se mueva entre capas, o que aprenda la que falta, escríbeme.
 
-[Correo](mailto:krisskira@gmail.com) · [WhatsApp](https://wa.me/573183919187) · [LinkedIn](https://www.linkedin.com/in/cristian-david-vergara-gomez/) · [Invítame un café](https://paypal.me/KRIVERDEVICE?locale.x=es_XC&country.x=CO) · [Ver el recorrido](https://krisskira.github.io/krisskira/#recorrido)
+[Correo](mailto:krisskira@gmail.com) · [WhatsApp](https://wa.me/573183919187) · [LinkedIn](https://www.linkedin.com/in/cristian-david-vergara-gomez/) · [Invítame un café](https://paypal.me/KRIVERDEVICE?locale.x=es_XC&country.x=CO) · [Ver el recorrido](https://krisskira.com/#recorrido)

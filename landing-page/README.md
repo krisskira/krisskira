@@ -1,7 +1,7 @@
 # Portfolio de Crhistian Vergara
 
 Generado con el template de landings (`template-kprrojects`). Se publica en
-<https://krisskira.github.io/krisskira/>.
+<https://krisskira.com/>.
 
 ```bash
 npm install
