@@ -4,7 +4,7 @@ import { asset, isExternal } from '../lib/content';
 import { usePage } from '../lib/usePage';
 import { BrandBar, Rich } from './ui';
 import { focusRing, wrap } from '../lib/styles';
-import { GitHubIcon, WhatsAppIcon } from './Icon';
+import { GitHubIcon, Icon, WhatsAppIcon } from './Icon';
 
 const linkClass = `rounded-sm text-hero-fg/70 transition hover:text-accent ${focusRing}`;
 
@@ -70,6 +70,17 @@ export function Footer() {
               >
                 <WhatsAppIcon size={18} />
                 WhatsApp
+              </a>
+            ) : null}
+            {site.coffee?.href ? (
+              <a
+                href={site.coffee.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`inline-flex h-11 items-center gap-2 rounded-full border border-hero-fg/20 px-4 text-sm font-semibold transition hover:border-accent hover:text-accent ${focusRing}`}
+              >
+                <Icon name="coffee" size={18} />
+                {site.coffee.label}
               </a>
             ) : null}
           </div>

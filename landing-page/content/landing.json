@@ -118,7 +118,8 @@
           "title": "El problema del principio, con todo lo aprendido",
           "body": [
             "**HotPlate** es una estación de soldadura SMD por reflow: firmware en C para un **ATmega16**, control PI con autoajuste, una PCB en **KiCad**, la carcasa impresa en 3D y **HotPlate Studio**, una app de escritorio en **Python** que habla con la placa por USB.",
-            "Para animar iconos en su pantalla sin agotar la memoria escribí un conversor de GIF a bytes. Y para guardar los registros de mis aplicaciones y dispositivos sin entregarlos a un tercero estoy construyendo **kLog**, con **Go**, GraphQL, **PostgreSQL** y Redis."
+            "Para animar iconos en su pantalla sin agotar la memoria escribí un conversor de GIF a bytes. Y para guardar los registros de mis aplicaciones y dispositivos sin entregarlos a un tercero estoy construyendo **kLog**, con **Go**, GraphQL, **PostgreSQL** y Redis.",
+            "En paralelo armé **KiCad IA**, un plugin para KiCad 10: describes el circuito en un chat, las piezas salen de las bibliotecas que ya tienes configuradas y el resultado es el esquemático del proyecto abierto."
           ],
           "takeaway": {
             "label": "Lo que me dejó",
@@ -209,6 +210,41 @@
       "lead": "El código de mis trabajos pertenece a cada empresa. Estos proyectos son personales: cada uno nació de una necesidad y me dejó algo que no sabía.",
       "items": [
         {
+          "id": "kicad-ia",
+          "featured": true,
+          "meta": "2026 · Plugin de KiCad",
+          "title": "KiCad IA",
+          "summary": "Plugin para KiCad 10. Describes el circuito en un chat y las piezas salen de las bibliotecas que ya tienes configuradas. El resultado es el esquemático del proyecto abierto.",
+          "beats": [
+            {
+              "label": "Por qué existe",
+              "text": "Armar un esquemático pide buscar cada símbolo a mano. El chat usa las bibliotecas del KiCad que está abierto y escribe el archivo del proyecto."
+            },
+            {
+              "label": "Qué hace",
+              "text": "Si la pieza no está, no dibuja otra en su lugar. No escribe un componente sin huella. A la placa se pasa con F8."
+            }
+          ],
+          "tags": ["Python", "KiCad 10", "WebSocket"],
+          "media": {
+            "src": "media/kicad-ia-flujo.svg",
+            "alt": "Diagrama del flujo de KiCad IA: editor de PCB, chat, bibliotecas, esquemático y el paso a la placa con F8",
+            "width": 1200,
+            "height": 560,
+            "caption": "El chat escribe el esquemático con las bibliotecas del proyecto. A la placa se pasa con F8."
+          },
+          "actions": [
+            { "label": "Página", "href": "https://krisskira.github.io/kicad-ia-chat/" },
+            { "label": "Repositorio", "href": "https://github.com/krisskira/kicad-ia-chat" }
+          ],
+          "schema": {
+            "@type": "SoftwareSourceCode",
+            "codeRepository": "https://github.com/krisskira/kicad-ia-chat",
+            "programmingLanguage": "Python",
+            "runtimePlatform": "KiCad 10"
+          }
+        },
+        {
           "id": "hotplate",
           "featured": true,
           "meta": "2026 · Hardware abierto",
@@ -245,6 +281,7 @@
           "featured": true,
           "meta": "2026 · En desarrollo",
           "title": "kLog",
+          "badge": "Próximamente",
           "summary": "Plataforma self-hosted para recibir los eventos de aplicaciones y dispositivos, guardarlos por organización y buscarlos desde una consola.",
           "beats": [
             {
@@ -400,7 +437,8 @@
       "actions": [
         { "label": "krisskira@gmail.com", "href": "mailto:krisskira@gmail.com", "icon": "mail" },
         { "label": "WhatsApp", "href": "https://wa.me/573183919187", "variant": "secondary", "icon": "whatsapp" },
-        { "label": "LinkedIn", "href": "https://www.linkedin.com/in/cristian-david-vergara-gomez/", "variant": "secondary", "icon": "linkedin" }
+        { "label": "LinkedIn", "href": "https://www.linkedin.com/in/cristian-david-vergara-gomez/", "variant": "secondary", "icon": "linkedin" },
+        { "label": "Invítame un café", "href": "https://paypal.me/KRIVERDEVICE?locale.x=es_XC&country.x=CO", "variant": "secondary", "icon": "coffee" }
       ]
     }
   ]

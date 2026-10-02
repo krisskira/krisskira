@@ -22,6 +22,12 @@
   "lang": "es-CO",
   "locale": "es_CO",
   "url": "https://krisskira.github.io/krisskira",
+  "gtm": "GTM-TWN288N",
+  "clarity": "yra4vt3xn4",
+  "coffee": {
+    "label": "Invítame un café",
+    "href": "https://paypal.me/KRIVERDEVICE?locale.x=es_XC&country.x=CO"
+  },
   "logo": "media/logo.svg",
   "favicon": "media/logo.svg",
   "appleTouchIcon": "media/apple-touch-icon.png",
@@ -104,7 +110,7 @@
     "@type": "ProfilePage",
     "@id": "#webpage",
     "mainEntity": { "@id": "#author" },
-    "dateModified": "2026-10-01"
+    "dateModified": "2026-10-02"
   },
   "footer": {
     "text": "Ingeniero de software full stack y móvil en Palmira, Colombia. Esta página se genera con mi propia plantilla de landings: el contenido vive en JSON y el código se comparte entre proyectos.",
@@ -125,7 +131,8 @@
           { "label": "GitHub", "href": "https://github.com/krisskira" },
           { "label": "LinkedIn", "href": "https://www.linkedin.com/in/cristian-david-vergara-gomez/" },
           { "label": "WhatsApp", "href": "https://wa.me/573183919187" },
-          { "label": "Correo", "href": "mailto:krisskira@gmail.com" }
+          { "label": "Correo", "href": "mailto:krisskira@gmail.com" },
+          { "label": "Invítame un café", "href": "https://paypal.me/KRIVERDEVICE?locale.x=es_XC&country.x=CO" }
         ]
       }
     ]

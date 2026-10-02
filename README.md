@@ -6,7 +6,7 @@
 
 Full-stack and mobile software engineer from Palmira, Colombia. My experience isn't a fixed stack: over ten years, each project pushed me into a new layer, and learning what that layer required became part of the job.
 
-[Portfolio](https://krisskira.github.io/krisskira/) · [LinkedIn](https://www.linkedin.com/in/cristian-david-vergara-gomez/) · [WhatsApp](https://wa.me/573183919187) · [Email](mailto:krisskira@gmail.com) · [Leer en español](README.es.md)
+[Portfolio](https://krisskira.github.io/krisskira/) · [LinkedIn](https://www.linkedin.com/in/cristian-david-vergara-gomez/) · [WhatsApp](https://wa.me/573183919187) · [Email](mailto:krisskira@gmail.com) · [Buy me a coffee](https://paypal.me/KRIVERDEVICE?locale.x=es_XC&country.x=CO) · [Leer en español](README.es.md)
 
 ## How I got here
 
@@ -26,8 +26,9 @@ Full-stack and mobile software engineer from Palmira, Colombia. My experience is
 
 ## What I build
 
+- **[KiCad IA](https://github.com/krisskira/kicad-ia-chat)**: a KiCad 10 plugin. You describe the circuit in a chat and the parts come from the libraries you already have configured. *[Page](https://krisskira.github.io/kicad-ia-chat/) · Python · KiCad 10*
 - **[HotPlate](https://github.com/krisskira/smd-soldering-hotplate)**: an SMD reflow station with PI control, its own display and a desktop app. *C · ATmega16 · KiCad · Python*
-- **kLog** *(in development)*: self-hosted logs and events for applications and devices. *Go · GraphQL · PostgreSQL · Redis*
+- **kLog** *(coming soon)*: self-hosted logs and events for applications and devices. *Go · GraphQL · PostgreSQL · Redis*
 - **[GIF → ST7920](https://github.com/krisskira/st7920-image-gif-to-bytes)**: turns GIFs into C arrays for 128×64 displays on memory-constrained MCUs. *Python*
 - **[Handwritten digit calculator](https://github.com/krisskira/ml-handwritten-number-recognizar)**: my way into machine learning. *Python · Keras*
 
@@ -39,4 +40,4 @@ The full story, stage by stage, is on my **[portfolio](https://krisskira.github.
 
 If your project needs someone who moves across layers, or who can learn the missing one, get in touch.
 
-[Email](mailto:krisskira@gmail.com) · [WhatsApp](https://wa.me/573183919187) · [LinkedIn](https://www.linkedin.com/in/cristian-david-vergara-gomez/) · [See the journey](https://krisskira.github.io/krisskira/#recorrido)
+[Email](mailto:krisskira@gmail.com) · [WhatsApp](https://wa.me/573183919187) · [LinkedIn](https://www.linkedin.com/in/cristian-david-vergara-gomez/) · [Buy me a coffee](https://paypal.me/KRIVERDEVICE?locale.x=es_XC&country.x=CO) · [See the journey](https://krisskira.github.io/krisskira/#recorrido)

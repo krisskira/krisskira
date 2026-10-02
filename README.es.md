@@ -6,7 +6,7 @@
 
 Ingeniero de software full stack y móvil en Palmira, Colombia. Mi experiencia no es un stack fijo: en más de diez años cada proyecto me llevó a una capa nueva, y aprender lo que esa capa pedía se volvió parte del trabajo.
 
-[Portfolio](https://krisskira.github.io/krisskira/) · [LinkedIn](https://www.linkedin.com/in/cristian-david-vergara-gomez/) · [WhatsApp](https://wa.me/573183919187) · [Correo](mailto:krisskira@gmail.com) · [Read in English](README.md)
+[Portfolio](https://krisskira.github.io/krisskira/) · [LinkedIn](https://www.linkedin.com/in/cristian-david-vergara-gomez/) · [WhatsApp](https://wa.me/573183919187) · [Correo](mailto:krisskira@gmail.com) · [Invítame un café](https://paypal.me/KRIVERDEVICE?locale.x=es_XC&country.x=CO) · [Read in English](README.md)
 
 ## Cómo llegué aquí
 
@@ -26,8 +26,9 @@ Ingeniero de software full stack y móvil en Palmira, Colombia. Mi experiencia n
 
 ## Lo que construyo
 
+- **[KiCad IA](https://github.com/krisskira/kicad-ia-chat)**: plugin para KiCad 10. Describes el circuito en un chat y las piezas salen de las bibliotecas que ya tienes configuradas. *[Página](https://krisskira.github.io/kicad-ia-chat/) · Python · KiCad 10*
 - **[HotPlate](https://github.com/krisskira/smd-soldering-hotplate)**: estación de reflow SMD con control PI, pantalla propia y app de escritorio. *C · ATmega16 · KiCad · Python*
-- **kLog** *(en desarrollo)*: logs y eventos self-hosted para aplicaciones y dispositivos. *Go · GraphQL · PostgreSQL · Redis*
+- **kLog** *(próximamente)*: logs y eventos self-hosted para aplicaciones y dispositivos. *Go · GraphQL · PostgreSQL · Redis*
 - **[GIF → ST7920](https://github.com/krisskira/st7920-image-gif-to-bytes)**: convierte GIF en arreglos C para pantallas de 128×64 en microcontroladores con poca memoria. *Python*
 - **[Calculadora de dígitos manuscritos](https://github.com/krisskira/ml-handwritten-number-recognizar)**: mi entrada al aprendizaje automático. *Python · Keras*
 
@@ -39,4 +40,4 @@ La historia completa, etapa por etapa, está en mi **[portfolio](https://krisski
 
 Si tu proyecto necesita a alguien que se mueva entre capas, o que aprenda la que falta, escríbeme.
 
-[Correo](mailto:krisskira@gmail.com) · [WhatsApp](https://wa.me/573183919187) · [LinkedIn](https://www.linkedin.com/in/cristian-david-vergara-gomez/) · [Ver el recorrido](https://krisskira.github.io/krisskira/#recorrido)
+[Correo](mailto:krisskira@gmail.com) · [WhatsApp](https://wa.me/573183919187) · [LinkedIn](https://www.linkedin.com/in/cristian-david-vergara-gomez/) · [Invítame un café](https://paypal.me/KRIVERDEVICE?locale.x=es_XC&country.x=CO) · [Ver el recorrido](https://krisskira.github.io/krisskira/#recorrido)
