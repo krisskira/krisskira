@@ -12,7 +12,7 @@ function Logo({ overlay, site }) {
   return (
     <a href="#top" className={`flex items-center gap-3 rounded-md ${focusRing}`} aria-label={t('home.link', { name: site.name })}>
       {site.logo ? <img src={asset(site.logo)} alt="" aria-hidden="true" className="h-9 w-9" /> : null}
-      <span className={`font-display text-xl font-semibold tracking-tight ${overlay ? 'text-hero-fg' : 'text-fg'}`}>{site.name}</span>
+      <span className={`whitespace-nowrap font-display text-xl font-semibold tracking-tight ${overlay ? 'text-hero-fg' : 'text-fg'}`}>{site.name}</span>
       {site.badge ? (
         <span className="hidden rounded-full border border-accent/40 px-2 py-0.5 font-mono text-[11px] font-semibold uppercase tracking-wider text-accent sm:inline">
           {site.badge}
@@ -107,7 +107,7 @@ export function Header() {
               href={site.coffee.href}
               target="_blank"
               rel="noopener noreferrer"
-              className={`${iconButton} xl:hidden`}
+              className={`${iconButton} max-sm:hidden xl:hidden`}
               aria-label={`${site.coffee.label}${t('external')}`}
             >
               <Icon name="coffee" size={20} />

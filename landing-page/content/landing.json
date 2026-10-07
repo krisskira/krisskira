@@ -8,7 +8,7 @@
       "lead": "Soy Crhistian Vergara. En más de diez años cada proyecto me llevó a una capa distinta —hardware, web, móvil, backend, nube— y aprender la herramienta siguiente fue parte del trabajo, no un requisito para empezarlo.",
       "actions": [
         { "label": "Ver el recorrido", "href": "#recorrido" },
-        { "label": "GitHub", "href": "https://krisskira.github.io/krisskira/", "variant": "secondary", "icon": "github" }
+        { "label": "GitHub", "href": "https://github.com/krisskira", "variant": "secondary", "icon": "github" }
       ],
       "stats": [
         { "value": "+10", "label": "años construyendo software" },
@@ -207,7 +207,7 @@
       "tone": "alt",
       "kicker": "Proyectos",
       "title": "Lo que he construido por mi cuenta",
-      "lead": "El código de mis trabajos pertenece a cada empresa. Estos proyectos son personales: cada uno nació de una necesidad y me dejó algo que no sabía.",
+      "lead": "El código de mis trabajos pertenece a cada empresa. Cada uno de estos proyectos nació de una necesidad y me dejó algo que no sabía.",
       "items": [
         {
           "id": "kicad-ia",
@@ -235,13 +235,15 @@
           },
           "actions": [
             { "label": "Página", "href": "https://krisskira.github.io/kicad-ia-chat/" },
+            { "label": "Ficha", "href": "https://kriverdevice.krisskira.com/proyectos/kicad-ia" },
             { "label": "Repositorio", "href": "https://github.com/krisskira/kicad-ia-chat" }
           ],
           "schema": {
             "@type": "SoftwareSourceCode",
             "codeRepository": "https://github.com/krisskira/kicad-ia-chat",
             "programmingLanguage": "Python",
-            "runtimePlatform": "KiCad 10"
+            "runtimePlatform": "KiCad 10",
+            "sameAs": "https://kriverdevice.krisskira.com/proyectos/kicad-ia"
           }
         },
         {
@@ -268,12 +270,17 @@
             "height": 1012,
             "caption": "HotPlate Studio conectado por USB durante un ciclo real."
           },
-          "actions": [{ "label": "Repositorio", "href": "https://github.com/krisskira/smd-soldering-hotplate" }],
+          "actions": [
+            { "label": "Página", "href": "https://krisskira.github.io/smd-soldering-hotplate/" },
+            { "label": "Ficha", "href": "https://kriverdevice.krisskira.com/proyectos/hotplate-smd" },
+            { "label": "Repositorio", "href": "https://github.com/krisskira/smd-soldering-hotplate" }
+          ],
           "schema": {
             "@type": "SoftwareSourceCode",
             "codeRepository": "https://github.com/krisskira/smd-soldering-hotplate",
             "programmingLanguage": ["C", "Python"],
-            "runtimePlatform": "ATmega16"
+            "runtimePlatform": "ATmega16",
+            "sameAs": "https://kriverdevice.krisskira.com/proyectos/hotplate-smd"
           }
         },
         {
@@ -301,65 +308,13 @@
             "height": 960,
             "caption": "Explorador de eventos del diseño de la v1. La consola se construye sobre él."
           },
+          "actions": [{ "label": "Ficha", "href": "https://kriverdevice.krisskira.com/proyectos/klog" }],
           "schema": {
             "@type": "SoftwareApplication",
             "applicationCategory": "DeveloperApplication",
-            "operatingSystem": "Linux, Docker",
-            "softwareRequirements": "PostgreSQL, Redis",
-            "creativeWorkStatus": "En desarrollo"
-          }
-        },
-        {
-          "id": "st7920-gif",
-          "meta": "2026 · Herramienta",
-          "title": "Conversor GIF → bytes para ST7920",
-          "summary": "Convierte GIF en arreglos C para pantallas ST7920 de 128×64, con recorte, modo diferencial entre frames y almacenamiento en flash (PROGMEM).",
-          "beats": [
-            {
-              "label": "Por qué existe",
-              "text": "Animar iconos en la pantalla de HotPlate sin agotar la memoria de un microcontrolador pequeño."
-            },
-            {
-              "label": "Qué aprendí",
-              "text": "Cómo organiza la ST7920 sus bits en memoria y cómo guardar solo las diferencias entre frames para ahorrar flash."
-            }
-          ],
-          "tags": ["Python", "Pillow", "NumPy", "C"],
-          "media": {
-            "src": "media/hotpanel-ramp.png",
-            "alt": "Pantalla HotPanel de 128×64 píxeles con el icono de calor y una rampa en curso",
-            "width": 664,
-            "height": 344,
-            "pixelated": true
-          },
-          "actions": [{ "label": "Repositorio", "href": "https://github.com/krisskira/st7920-image-gif-to-bytes" }],
-          "schema": {
-            "@type": "SoftwareSourceCode",
-            "codeRepository": "https://github.com/krisskira/st7920-image-gif-to-bytes",
-            "programmingLanguage": "Python"
-          }
-        },
-        {
-          "id": "ml-digitos",
-          "meta": "2024 · Aprendizaje automático",
-          "title": "Calculadora de dígitos manuscritos",
-          "summary": "Una calculadora que recibe números escritos a mano: un modelo entrenado con Keras los reconoce y un servidor en Python resuelve la operación.",
-          "beats": [
-            {
-              "label": "Por qué existe",
-              "text": "Fue mi entrada al aprendizaje automático, antes de llevar la IA a mi trabajo diario."
-            },
-            {
-              "label": "Qué aprendí",
-              "text": "Entrenar y guardar un modelo, documentar el entrenamiento en un notebook y servirlo detrás de una API."
-            }
-          ],
-          "tags": ["Python", "Keras", "Jupyter"],
-          "actions": [{ "label": "Repositorio", "href": "https://github.com/krisskira/ml-handwritten-number-recognizar" }],
-          "schema": {
-            "@type": "SoftwareSourceCode",
-            "codeRepository": "https://github.com/krisskira/ml-handwritten-number-recognizar",
-            "programmingLanguage": "Python"
+            "operatingSystem": "Web",
+            "creativeWorkStatus": "En desarrollo",
+            "sameAs": "https://kriverdevice.krisskira.com/proyectos/klog"
           }
         },
         {
@@ -377,7 +332,7 @@
               "text": "Firmware en C para dispositivos conectados, y la idea que todavía uso: entender el problema desde el sensor hasta la pantalla."
             }
           ],
-          "tags": ["C", "IoT", "WiFi"],
+          "tags": ["C", "PIC 18F4620", "IoT", "WiFi"],
           "actions": [{ "label": "Repositorio", "href": "https://github.com/krisskira/Kriver-Hardware" }],
           "schema": {
             "@type": "SoftwareSourceCode",
@@ -386,27 +341,77 @@
           }
         },
         {
-          "id": "arquitectura",
-          "meta": "2022 – 2024 · Arquitectura entre stacks",
-          "title": "La misma arquitectura, distintos entornos",
-          "summary": "Proyectos deliberadamente distintos para comprobar qué principios permanecen al cambiar de web a backend y móvil nativo.",
+          "id": "semaforo-pic",
+          "meta": "2017 · Microcontroladores",
+          "title": "Semáforo con PIC 18F2550",
+          "summary": "Maqueta de semáforos con un PIC 18F2550: el código en C con PIC CCS y el circuito simulado en Proteus 8.5 antes de montarlo.",
           "beats": [
             {
-              "label": "Por qué existen",
-              "text": "Practicar fuera del trabajo los patrones que usaba en las apps fintech: DDD en TypeScript, Atomic Design y Cypress en React, un full stack React/Django/Docker y MVVM con SwiftUI."
+              "label": "Por qué existe",
+              "text": "Llevar una secuencia de tiempos a salidas físicas, primero en simulación y después en una maqueta real."
             },
             {
               "label": "Qué aprendí",
-              "text": "Que dominio, casos de uso e infraestructura sobreviven al cambio de lenguaje, mientras estado, pruebas e integración piden una implementación propia en cada plataforma."
+              "text": "Programar un PIC en C y probar el circuito en Proteus antes de soldar. Es el mismo punto de partida al que volví con HotPlate."
             }
           ],
-          "tags": ["TypeScript", "DDD", "React", "Cypress", "Django", "Docker", "SwiftUI", "MVVM"],
+          "tags": ["C", "PIC 18F2550", "PIC CCS", "Proteus"],
           "actions": [
-            { "label": "DDD en TypeScript", "href": "https://github.com/krisskira/demo-using-ddd" },
-            { "label": "React + Cypress", "href": "https://github.com/krisskira/task-manager" },
-            { "label": "React + Django", "href": "https://github.com/krisskira/checdoc" },
-            { "label": "SwiftUI + MVVM", "href": "https://github.com/krisskira/yape-recipes-ingress-test" }
-          ]
+            { "label": "Repositorio", "href": "https://github.com/krisskira/Semaforo-Pic-18F-2550" },
+            { "label": "Video", "href": "https://youtu.be/pvF7NDOGh50" }
+          ],
+          "schema": {
+            "@type": "SoftwareSourceCode",
+            "codeRepository": "https://github.com/krisskira/Semaforo-Pic-18F-2550",
+            "programmingLanguage": "C",
+            "runtimePlatform": "PIC 18F2550"
+          }
+        },
+        {
+          "id": "ddd-typescript",
+          "meta": "2022 · Arquitectura",
+          "title": "DDD en TypeScript",
+          "summary": "Un CRUD con Domain-Driven Design: entidades, repositorios y controladores en el dominio, y la base de datos y el servidor en infraestructura. Incluye un frontend en React.",
+          "beats": [
+            {
+              "label": "Por qué existe",
+              "text": "Practicar fuera del trabajo los patrones que usaba en las apps fintech, en un proyecto pequeño donde se vieran todas las capas."
+            },
+            {
+              "label": "Qué aprendí",
+              "text": "Que el dominio no depende del framework: la base de datos y el servidor se pueden cambiar sin tocar las reglas del negocio."
+            }
+          ],
+          "tags": ["TypeScript", "DDD", "Node.js", "React", "Vite"],
+          "actions": [{ "label": "Repositorio", "href": "https://github.com/krisskira/demo-using-ddd" }],
+          "schema": {
+            "@type": "SoftwareSourceCode",
+            "codeRepository": "https://github.com/krisskira/demo-using-ddd",
+            "programmingLanguage": "TypeScript"
+          }
+        },
+        {
+          "id": "php-mvc",
+          "meta": "2018 · Web",
+          "title": "Framework PHP MVC Kriver",
+          "summary": "Framework propio en PHP con el patrón Modelo-Vista-Controlador: enrutador, controladores, vistas, un ORM pequeño y autocarga de clases.",
+          "beats": [
+            {
+              "label": "Por qué existe",
+              "text": "Construir un framework es una forma directa de entender lo que resuelve uno: cómo llega la petición, quién la atiende y qué se devuelve."
+            },
+            {
+              "label": "Qué aprendí",
+              "text": "Separar rutas, lógica, datos y vista. Es la misma separación que después llevé a las apps móviles con Clean Architecture."
+            }
+          ],
+          "tags": ["PHP", "MVC", "ORM"],
+          "actions": [{ "label": "Repositorio", "href": "https://github.com/krisskira/PHP-MVC-Kriver-Framework" }],
+          "schema": {
+            "@type": "SoftwareSourceCode",
+            "codeRepository": "https://github.com/krisskira/PHP-MVC-Kriver-Framework",
+            "programmingLanguage": "PHP"
+          }
         }
       ],
       "actions": [

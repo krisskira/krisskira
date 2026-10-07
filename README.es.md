@@ -26,11 +26,13 @@ Ingeniero de software full stack y móvil en Palmira, Colombia. Mi experiencia n
 
 ## Lo que construyo
 
-- **[KiCad IA](https://github.com/krisskira/kicad-ia-chat)**: plugin para KiCad 10. Describes el circuito en un chat y las piezas salen de las bibliotecas que ya tienes configuradas. *[Página](https://krisskira.github.io/kicad-ia-chat/) · Python · KiCad 10*
-- **[HotPlate](https://github.com/krisskira/smd-soldering-hotplate)**: estación de reflow SMD con control PI, pantalla propia y app de escritorio. *C · ATmega16 · KiCad · Python*
-- **kLog** *(próximamente)*: logs y eventos self-hosted para aplicaciones y dispositivos. *Go · GraphQL · PostgreSQL · Redis*
-- **[GIF → ST7920](https://github.com/krisskira/st7920-image-gif-to-bytes)**: convierte GIF en arreglos C para pantallas de 128×64 en microcontroladores con poca memoria. *Python*
-- **[Calculadora de dígitos manuscritos](https://github.com/krisskira/ml-handwritten-number-recognizar)**: mi entrada al aprendizaje automático. *Python · Keras*
+- **[KiCad IA](https://krisskira.github.io/kicad-ia-chat/)**: plugin para KiCad 10. Describes el circuito en un chat y las piezas salen de las bibliotecas que ya tienes configuradas. *[Ficha](https://kriverdevice.krisskira.com/proyectos/kicad-ia) · [Código](https://github.com/krisskira/kicad-ia-chat)*
+- **[HotPlate](https://krisskira.github.io/smd-soldering-hotplate/)**: estación de reflow SMD con control PI, pantalla propia y app de escritorio. *[Ficha](https://kriverdevice.krisskira.com/proyectos/hotplate-smd) · [Código](https://github.com/krisskira/smd-soldering-hotplate)*
+- **[kLog](https://kriverdevice.krisskira.com/proyectos/klog)** *(privado)*: registra cada evento y sigue lo que pasa en la app. *Go · GraphQL · PostgreSQL · Redis*
+- **[Kriver SmartHome](https://github.com/krisskira/Kriver-Hardware)**: firmware para controlar luces y electrodomésticos desde la red WiFi de la casa, con un servidor que hace de hub. *C · PIC 18F4620 · 2017*
+- **[Semáforo con PIC 18F2550](https://github.com/krisskira/Semaforo-Pic-18F-2550)**: maqueta de semáforos en C con PIC CCS, simulada en Proteus. *C · PIC · 2017*
+- **[DDD en TypeScript](https://github.com/krisskira/demo-using-ddd)**: un CRUD con Domain-Driven Design: dominio, repositorios e infraestructura por separado. *TypeScript · React · 2022*
+- **[Framework PHP MVC Kriver](https://github.com/krisskira/PHP-MVC-Kriver-Framework)**: mi propio framework con enrutador, controladores, vistas y un ORM pequeño. *PHP · 2018*
 
 ## Explora
 

@@ -105,7 +105,7 @@
       "KiCad"
     ],
     "sameAs": [
-      "https://krisskira.github.io/krisskira/",
+      "https://github.com/krisskira",
       "https://www.linkedin.com/in/cristian-david-vergara-gomez/",
       "https://www.facebook.com/krisskira",
       "https://orcid.org/0009-0005-0802-7042"
@@ -115,7 +115,7 @@
     "@type": "ProfilePage",
     "@id": "#webpage",
     "mainEntity": { "@id": "#author" },
-    "dateModified": "2026-10-02"
+    "dateModified": "2026-10-07"
   },
   "footer": {
     "text": "Ingeniero de software full stack y móvil en Palmira, Colombia. Esta página se genera con mi propia plantilla de landings: el contenido vive en JSON y el código se comparte entre proyectos.",
@@ -133,7 +133,7 @@
       {
         "title": "En otros sitios",
         "links": [
-          { "label": "GitHub", "href": "https://krisskira.github.io/krisskira/" },
+          { "label": "GitHub", "href": "https://github.com/krisskira" },
           { "label": "LinkedIn", "href": "https://www.linkedin.com/in/cristian-david-vergara-gomez/" },
           { "label": "WhatsApp", "href": "https://wa.me/573183919187" },
           { "label": "Correo", "href": "mailto:krisskira@gmail.com" },

@@ -84,7 +84,7 @@ function slugify(value) {
 function structuredData(site, landing, base) {
   const url = base ? `${base}/` : undefined;
   const author = site.author && { '@type': 'Person', ...resolveIds(site.author, base), '@id': `${base}/#author` };
-  const maker = site.maker && { '@type': 'Organization', '@id': `${base}/#maker`, name: site.maker.name, url: site.maker.url };
+  const maker = site.maker && { '@type': 'Organization', ...resolveIds(site.maker, base), '@id': `${base}/#maker` };
   const graph = [
     {
       '@type': 'WebSite',
@@ -116,7 +116,8 @@ function structuredData(site, landing, base) {
         ...(absolute(base, site.ogImage)
           ? { primaryImageOfPage: { '@type': 'ImageObject', url: absolute(base, site.ogImage) } }
           : {}),
-        ...(author ? { author: { '@id': author['@id'] } } : {}),
+        ...(author ? { author: { '@id': author['@id'] }, creator: { '@id': author['@id'] } } : {}),
+        ...(maker ? { publisher: { '@id': maker['@id'] } } : {}),
       });
     }
     graph.push({
@@ -125,7 +126,7 @@ function structuredData(site, landing, base) {
       url,
       image: absolute(base, site.ogImage),
       ...(page ? { isPartOf: { '@id': `${base}/#website` }, inLanguage: site.lang } : {}),
-      ...(author ? { author: { '@id': author['@id'] } } : {}),
+      ...(author ? { author: { '@id': author['@id'] }, creator: { '@id': author['@id'] } } : {}),
       ...(maker && !page ? { publisher: { '@id': maker['@id'] } } : {}),
       ...(page ? {} : { mainEntityOfPage: { '@id': `${base}/#webpage` } }),
       ...schema,
@@ -345,8 +346,10 @@ function llms(site, landing, base) {
     .join('\n');
   const links = [
     site.repo && `- Código fuente: ${site.repo}`,
-    site.author?.name && `- Autor: ${site.author.name}${site.author.url ? ` (${site.author.url})` : ''}`,
+    site.author?.name && `- Desarrollado por: ${site.author.name}${site.author.url ? ` (${site.author.url})` : ''}`,
     site.author?.email && `- Contacto: ${site.author.email}`,
+    site.author?.telephone && `- Teléfono: ${site.author.telephone}`,
+    ...(site.author?.sameAs ?? []).map((link) => `- Perfil: ${link}`),
     site.whatsapp && `- WhatsApp: ${site.whatsapp}`,
     site.coffee?.href && `- ${site.coffee.label || 'Invítame un café'}: ${site.coffee.href}`,
     site.maker?.name && `- Estudio: ${site.maker.name}${site.maker.url ? ` (${site.maker.url})` : ''}`,
