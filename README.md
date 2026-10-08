@@ -28,7 +28,7 @@ Full-stack and mobile software engineer from Palmira, Colombia. My experience is
 
 - **[KiCad IA](https://krisskira.github.io/kicad-ia-chat/)**: a KiCad 10 plugin. You describe the circuit in a chat and the parts come from the libraries you already have configured. *[Entry](https://kriverdevice.krisskira.com/proyectos/kicad-ia) · [Code](https://github.com/krisskira/kicad-ia-chat)*
 - **[HotPlate](https://krisskira.github.io/smd-soldering-hotplate/)**: an SMD reflow station with PI control, its own display and a desktop app. *[Entry](https://kriverdevice.krisskira.com/proyectos/hotplate-smd) · [Code](https://github.com/krisskira/smd-soldering-hotplate)*
-- **[kLog](https://kriverdevice.krisskira.com/proyectos/klog)** *(private)*: records every event and tracks what happens in the app. *Go · GraphQL · PostgreSQL · Redis*
+- **[kLog](https://klog.krisskira.com/)** *(private)*: records every event and tracks what happens in the app. *Go · GraphQL · PostgreSQL · Redis*
 - **[Kriver SmartHome](https://github.com/krisskira/Kriver-Hardware)**: firmware to control lights and appliances over the home WiFi, with a server acting as the hub. *C · PIC 18F4620 · 2017*
 - **[PIC 18F2550 traffic lights](https://github.com/krisskira/Semaforo-Pic-18F-2550)**: a traffic-light model in C with PIC CCS, simulated in Proteus. *C · PIC · 2017*
 - **[DDD in TypeScript](https://github.com/krisskira/demo-using-ddd)**: a CRUD with Domain-Driven Design: domain, repositories and infrastructure kept apart. *TypeScript · React · 2022*
