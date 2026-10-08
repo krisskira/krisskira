@@ -84,7 +84,7 @@ def main():
     MEDIA.mkdir(parents=True, exist_ok=True)
     portrait(AVATAR)
     webp(HOTPLATE / 'hotplate-demo-poster.jpg', 'hotplate-cycle.webp')
-    webp(HOTPLATE / 'studio-heat.webp', 'hotplate-studio.webp', width=1440)
+    webp(HOTPLATE / 'hero-producto.jpg', 'hotplate-producto.webp')
     webp(KLOG / 'screen-explorer.webp', 'klog-explorer.webp', width=1200)
     shutil.copyfile(HOTPLATE / 'hotplate-demo.mp4', MEDIA / 'hotplate-demo.mp4')
     print('hotplate-demo.mp4: copiado')
@@ -92,7 +92,7 @@ def main():
     icon(192, 'icon-192.png')
     icon(512, 'icon-512.png')
     og_cover()
-    for leftover in ('placeholder.svg', 'og-cover.png'):
+    for leftover in ('placeholder.svg', 'og-cover.png', 'hotplate-studio.webp'):
         (MEDIA / leftover).unlink(missing_ok=True)
 
 

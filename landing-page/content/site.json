@@ -3,14 +3,17 @@
   "name": "Crhistian Vergara",
   "shortName": "C. Vergara",
   "badge": "",
-  "title": "Crhistian Vergara | Ingeniero de software full stack y móvil",
-  "description": "Más de diez años pasando del firmware en C a apps móviles, backends y la nube. Este es mi recorrido, lo que aprendí en cada etapa y lo que he construido.",
+  "title": "Crhistian Vergara | Desarrollador full stack, móvil y electrónico",
+  "description": "Desarrollador full stack, móvil y electrónico. Creo apps, plataformas SaaS, firmware y hardware a la medida, e integro inteligencia artificial para automatizar procesos.",
   "keywords": [
     "Crhistian Vergara",
     "Cristian David Vergara Gómez",
     "ingeniero de software",
     "desarrollador full stack",
     "desarrollador móvil",
+    "desarrollador electrónico",
+    "inteligencia artificial",
+    "plataformas SaaS",
     "React Native",
     "iOS Swift",
     "Node.js",
@@ -32,7 +35,7 @@
   "favicon": "media/logo.svg",
   "appleTouchIcon": "media/apple-touch-icon.png",
   "ogImage": "media/og-cover.jpg",
-  "ogImageAlt": "Crhistian Vergara: del firmware en C a productos SaaS, un problema a la vez",
+  "ogImageAlt": "Crhistian Vergara: del firmware en C a productos SaaS, una solución a la vez",
   "ogType": "profile",
   "profile": {
     "first_name": "Crhistian",
@@ -54,8 +57,8 @@
     "alternateName": ["Cristian David Vergara Gómez", "krisskira"],
     "givenName": "Crhistian David",
     "familyName": "Vergara Gómez",
-    "jobTitle": "Ingeniero de software full stack y móvil",
-    "description": "Ingeniero de software con más de diez años de experiencia en firmware, web, móvil, backend y nube.",
+    "jobTitle": "Desarrollador full stack, móvil y electrónico",
+    "description": "Desarrollador con más de diez años de experiencia en firmware, hardware, web, móvil, backend, nube e inteligencia artificial.",
     "url": "https://krisskira.com/",
     "image": "https://krisskira.com/media/portrait.webp",
     "email": "krisskira@gmail.com",
@@ -102,6 +105,8 @@
       "Clean Architecture",
       "Domain-Driven Design",
       "Keras",
+      "LangChain",
+      "Inteligencia artificial",
       "KiCad"
     ],
     "sameAs": [
@@ -118,13 +123,13 @@
     "dateModified": "2026-10-07"
   },
   "footer": {
-    "text": "Ingeniero de software full stack y móvil en Palmira, Colombia. Esta página se genera con mi propia plantilla de landings: el contenido vive en JSON y el código se comparte entre proyectos.",
+    "text": "Desarrollador full stack, móvil y electrónico en Palmira, Colombia. Esta página sale de mi propia plantilla de landings, la misma que uso en cada proyecto.",
     "rights": "Crhistian David Vergara Gómez",
     "columns": [
       {
         "title": "En esta página",
         "links": [
-          { "label": "Recorrido", "href": "#recorrido" },
+          { "label": "Trayectoria", "href": "#recorrido" },
           { "label": "Aprendizajes", "href": "#aprendizajes" },
           { "label": "Laboratorio", "href": "#laboratorio" },
           { "label": "Proyectos", "href": "#proyectos" }
