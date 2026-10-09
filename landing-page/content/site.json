@@ -25,7 +25,7 @@
   "lang": "es-CO",
   "locale": "es_CO",
   "url": "https://krisskira.com",
-  "gtm": "GTM-TWN288N",
+  "gtm": "GTM-P8SWH6PG",
   "clarity": "yra4vt3xn4",
   "coffee": {
     "label": "Invítame un café",
@@ -120,7 +120,7 @@
     "@type": "ProfilePage",
     "@id": "#webpage",
     "mainEntity": { "@id": "#author" },
-    "dateModified": "2026-10-07"
+    "dateModified": "2026-10-08"
   },
   "footer": {
     "text": "Desarrollador full stack, móvil y electrónico en Palmira, Colombia. Esta página sale de mi propia plantilla de landings, la misma que uso en cada proyecto.",
